@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "income",
+    "amount": 15000,
+    "category": "invoice",
+    "description": "Payment from Acme Corp",
+    "date": "2026-04-10",
+    "created_at": "2026-04-10T18:30:00"
+  },
+  {
+    "id": 2,
+    "type": "expense",
+    "amount": 1200,
+    "category": "food",
+    "description": "Dinner at restaurant",
+    "date": "2026-04-12",
+    "created_at": "2026-04-12T21:00:00"
+  },
+  {
+    "id": 3,
+    "type": "expense",
+    "amount": 5000,
+    "category": "rent",
+    "description": "Monthly rent",
+    "date": "2026-04-01",
+    "created_at": "2026-04-01T09:00:00"
+  },
+  {
+    "id": 4,
+    "type": "income",
+    "amount": 8000,
+    "category": "invoice",
+    "description": "Partial payment from Startup XYZ",
+    "date": "2026-04-25",
+    "created_at": "2026-04-25T16:00:00"
+  }
+]

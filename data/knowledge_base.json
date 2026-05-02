@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "GST for freelancers in India",
+    "content": "Freelancers in India generally need GST registration when aggregate turnover crosses the applicable threshold or when they provide certain interstate services. GST invoices should include supplier details, customer details when required, invoice number, date, service description, taxable value, GST rate, tax amount, and place of supply. Rules change, so verify against current official guidance or a tax professional before filing."
+  },
+  {
+    "topic": "Invoice management",
+    "content": "A reliable invoice workflow tracks invoice number, client name, amount, due date, status, created date, and paid date. Pending invoice totals help identify outstanding cash collection risk."
+  },
+  {
+    "topic": "Financial activity summaries",
+    "content": "A useful small-business financial summary separates income, expenses, net cash movement, expense categories, and recent unusual transactions. Period filters such as today, this week, last week, this month, and last month make summaries actionable."
+  }
+]

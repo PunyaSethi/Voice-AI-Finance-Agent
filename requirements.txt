@@ -1,0 +1,35 @@
+# FastAPI backend
+fastapi
+uvicorn[standard]
+
+# WebSockets
+websockets
+
+# Environment
+python-dotenv
+
+# LLM (OpenAI or compatible)
+openai
+
+# RAG
+faiss-cpu
+sentence-transformers
+
+# Voice
+openai-whisper
+gtts
+pydub
+
+# Data handling
+pandas
+numpy
+
+# Database
+sqlalchemy
+
+# Utilities
+requests
+aiohttp
+
+# Dev/testing
+pytest

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Follow up with Acme Corp",
+    "description": "Call client regarding overdue invoice",
+    "reminder_type": "invoice_followup",
+    "related_id": 3,
+    "due_at": "2026-05-01T10:00:00",
+    "status": "pending",
+    "priority": "high",
+    "created_at": "2026-04-30T09:00:00",
+    "updated_at": "2026-04-30T09:00:00"
+  },
+  {
+    "id": 2,
+    "title": "Pay office rent",
+    "description": "Monthly rent payment",
+    "reminder_type": "payment",
+    "related_id": null,
+    "due_at": "2026-05-05T09:00:00",
+    "status": "pending",
+    "priority": "high",
+    "created_at": "2026-04-28T08:00:00",
+    "updated_at": "2026-04-28T08:00:00"
+  },
+  {
+    "id": 3,
+    "title": "Check expenses",
+    "description": "Review weekly expenses",
+    "reminder_type": "task",
+    "related_id": null,
+    "due_at": "2026-05-02T20:00:00",
+    "status": "pending",
+    "priority": "medium",
+    "created_at": "2026-04-29T18:00:00",
+    "updated_at": "2026-04-29T18:00:00"
+  },
+  {
+    "id": 4,
+    "title": "Follow up with Startup XYZ",
+    "description": "Pending invoice reminder",
+    "reminder_type": "invoice_followup",
+    "related_id": 2,
+    "due_at": "2026-05-03T11:00:00",
+    "status": "pending",
+    "priority": "medium",
+    "created_at": "2026-04-30T10:30:00",
+    "updated_at": "2026-04-30T10:30:00"
+  }
+]

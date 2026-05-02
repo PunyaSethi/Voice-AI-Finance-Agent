@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice AI Finance Agent</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="shell">
+        <section class="panel">
+            <header>
+                <p class="eyebrow">Local finance assistant</p>
+                <h1>Voice AI Finance Agent</h1>
+            </header>
+
+            <div class="controls">
+                <button id="startBtn" type="button">Start</button>
+                <button id="stopBtn" type="button" disabled>Stop</button>
+            </div>
+
+            <div class="auth-bar">
+                <input id="apiKeyInput" type="password" placeholder="Optional API key">
+                <button id="saveApiKeyBtn" type="button">Save Key</button>
+            </div>
+
+            <form id="textForm" class="text-form">
+                <input id="textInput" type="text" placeholder="Type a finance request" autocomplete="off">
+                <button type="submit">Send</button>
+            </form>
+
+            <dl class="status-grid">
+                <div>
+                    <dt>Status</dt>
+                    <dd id="status">Idle</dd>
+                </div>
+                <div>
+                    <dt>Route</dt>
+                    <dd id="route">-</dd>
+                </div>
+                <div>
+                    <dt>Action</dt>
+                    <dd id="action">-</dd>
+                </div>
+                <div>
+                    <dt>Audio</dt>
+                    <dd id="audioState">Idle</dd>
+                </div>
+            </dl>
+
+            <section class="transcript">
+                <h2>User</h2>
+                <p id="userText">Waiting for voice input.</p>
+            </section>
+
+            <section class="transcript">
+                <h2>AI</h2>
+                <p id="aiText">The assistant response will appear here.</p>
+            </section>
+
+            <section class="result-panel">
+                <h2>Results</h2>
+                <div id="resultView">No records loaded yet.</div>
+            </section>
+
+            <section class="result-panel">
+                <h2>Plan</h2>
+                <ol id="planView" class="plan-list">
+                    <li>Waiting for a request.</li>
+                </ol>
+            </section>
+
+            <audio id="audioPlayer" controls></audio>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
