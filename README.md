@@ -209,7 +209,7 @@ voice-ai-finance-agent/
 ### 1. Clone repository
 
 ```
-git clone https://github.com/PunyaSethi/voice-ai-finance-agent.git
+git clone https://github.com/PunyaSethi/Voice-AI-Finance-Agent.git
 cd voice-ai-finance-agent
 ```
 
